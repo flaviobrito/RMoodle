@@ -1,0 +1,15 @@
+default:
+  moodledata:
+    driver: "MySQL()"
+    server: "127.0.0.1"
+    uid: 'moodle_user'
+    pwd: ',moodle_pass'
+    port: 3306
+    database: 'moodle_db'
+  moodledata2:
+    driver: "RSQLite::SQLite()"
+    server: "127.0.0.1"
+    uid: 'moodle_user'
+    pwd: ',moodle_pass'
+    port: NULL
+    database: 'moodle_db'
